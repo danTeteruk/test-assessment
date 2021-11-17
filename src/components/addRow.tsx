@@ -10,6 +10,7 @@ export const AddRow: FC<InjectedProps> = ({ toDoStore }) => {
   const [value, setValue] = useState("");
 
   const onAddButtonClick = useCallback((): void => {
+    if (!value) return;
     toDoStore.addToDo(value);
     setValue("");
   }, [toDoStore, value, setValue]);
