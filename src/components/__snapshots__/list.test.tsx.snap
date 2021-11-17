@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlRedirectForm renders and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="item false"
+  >
+    <div>
+      some titile
+    </div>
+    <div
+      class="checkbox false"
+      data-testid="toggle"
+    />
+  </div>
+</DocumentFragment>
+`;
